@@ -35,9 +35,9 @@ input[type="text"]{
 
 }
 table{
-    height: 35rem;
+    height: 33rem;
     width: 30rem;
-    margin: 1rem auto  auto;
+    margin: 10px auto  20px;
     background-color: #DCD6E2;
     padding: 1.5rem;
     border-radius: 15px;
@@ -52,19 +52,22 @@ table td{
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 768px) {
     input[type="button"] {
-        width: 4rem;
+        width: 3rem;
         font-size: 2rem;
+        padding: 1px;
     }
 
     input[type="text"] {
-        padding: 0.3rem;
+        padding: 0rem;
         font-size: 2rem;
     }
     
     table {
+        margin: auto;
         padding: 1rem;
-        width: 100%;
-        height: auto;
+        width: 80vw;
+        height: 30vh;
+        
     
     }
 }
