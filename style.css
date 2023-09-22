@@ -52,7 +52,7 @@ table td{
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 768px) {
     input[type="button"] {
-        width: 3rem;
+        width: 4rem;
         font-size: 2rem;
         padding: 1px;
     }
